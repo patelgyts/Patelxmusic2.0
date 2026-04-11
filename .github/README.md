@@ -19,7 +19,7 @@ Supports YouTube, Spotify, Resso, Apple Music, SoundCloud and M3U8 links.
 </a>
 <br>
 
-<img src="https://files.catbox.moe/wlhvgp.jpg" width="720" height="auto">
+<img src="https://files.catbox.moe/n9x1d9.png" width="720" height="auto">
 
 PatelxMusic lets you stream high-quality and low-latency audio and video playback into telegram group video chats.<br>
 Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability and easy deployment on Heroku, VPS, or Docker.
