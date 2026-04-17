@@ -8,50 +8,55 @@ Supports YouTube, Spotify, Resso, Apple Music, SoundCloud and M3U8 links.
 <a href="https://github.com/patelgyts/Patelxmusic2.0/stargazers">
     <img src="https://img.shields.io/github/stars/AnonymousX1025/PatelxMusic?color=blueviolet&logo=github&logoColor=black&style=for-the-badge" alt="Stars"/>
 </a>
+
 <a href="https://github.com/patelgyts/Patelxmusic2.0/network/members">
     <img src="https://img.shields.io/github/forks/AnonymousX1025/PatelxMusic?color=blueviolet&logo=github&logoColor=black&style=for-the-badge" alt="Forks"/>
 </a>
+
 <a href="https://github.com/patelgyts/Patelxmusic2.0/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"/>
 </a>
+
 <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Written%20in-Python-blue?style=for-the-badge&logo=python" alt="Python"/>
 </a>
-<br>
 
-<img src="https://files.catbox.moe/n9x1d9.png" width="720" height="auto">
+<br><br>
 
-PatelxMusic lets you stream high-quality and low-latency audio and video playback into telegram group video chats.<br>
-Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability and easy deployment on Heroku, VPS, or Docker.
+<img src="https://files.catbox.moe/ui14cp.png" width="720">
+
 </div>
 
-<hr>
+---
 
-<h2>🔥 Features</h2>
+## 🔥 Features
 
-- 🎧 Stream low-latency audio in real time to <b>Telegram group video chats</b>
-- 🌐 Supports multiple platforms like <b>YouTube, Spotify, Apple Music, SoundCloud</b>
-- ⚡ Advanced queue management with auto-play
-- ⚙️ Easy deployment — works on Local, VPS, or Heroku
-- ❤️ Built with Python
+- 🎧 Stream low-latency audio in Telegram group video chats  
+- 🌐 Supports YouTube, Spotify, Apple Music, SoundCloud  
+- ⚡ Advanced queue system with auto-play  
+- ⚙️ Easy deployment on VPS, Local, Docker, Heroku  
+- ❤️ Built with Python, Pyrogram, PyTgCalls  
 
-<hr>
+---
 
-<h2>☁️ Manual Deployment</h2>
+## ☁️ Manual Deployment
 
-<h3>✔️ Prerequisites</h3>
+### ✔️ Requirements
 
-- <a href="https://www.python.org">Python 3.10+</a> installed  
-- <a href="https://deno.com/">deno</a> & <a href="https://ffmpeg.org//">ffmpeg</a> installed on your system  
-- Required variables mentioned in <a href="https://github.com/patelgyts/Patelxmusic2.0/blob/master/sample.env">sample.env</a>
+- Python 3.10+
+- ffmpeg installed
+- deno installed
+- Telegram API credentials
+- MongoDB database
+
+---
 
 <details>
-    <summary>
-        <h3>Local / VPS Setup</h3>
-    </summary>
+<summary><h3>📌 Local / VPS Setup</h3></summary>
 
+### 🔹 1. Clone Repository
 ```bash
-git clone https://github.com/patelgyts/Patelxmusic2.0.git && cd PatelxMusic
+https://github.com/patelgyts/Patelxmusic2.0.git && cd Patelxmusic2.0
 
 # Install dependencies
 pip3 install -U -r requirements.txt
@@ -62,3 +67,6 @@ mv sample.env .env
 
 # Start the bot
 bash start
+
+
+
